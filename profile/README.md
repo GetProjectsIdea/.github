@@ -11,7 +11,7 @@
 <div align="center">
 
 <!-- Native High-Performance Self-Hosted SVG Header Banner -->
-<img src="https://raw.githubusercontent.com/GetProjectsIdea/.github/main/profile/header.svg" width="100%" alt="GetProjects.org Header" />
+<img src="https://raw.githubusercontent.com/GetProjectsIdea/.github/main/profile/header.png" width="100%" alt="GetProjects.org Header" />
 
 <!-- Live Dynamic Metrics & Quick Badges -->
 <p align="center">
