@@ -38,6 +38,18 @@
 
 ---
 
+<!-- Awesome List Banner Callout -->
+<p align="center">
+  <a href="https://github.com/GetProjectsIdea/awesome-final-year-coding-projects">
+    <img src="https://img.shields.io/badge/%E2%AD%90%20Curated%20List-Awesome%20Final--Year%20Projects-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Awesome List" />
+  </a>
+  <a href="https://getprojects.org/50-major-project-ideas-for-btech-computer-science-and-mca-students-a-comprehensive-guide/">
+    <img src="https://img.shields.io/badge/50%2B%20Major%20Ideas-BTech%20%2F%20MCA%20Guide-10B981?style=for-the-badge&logo=book&logoColor=white" alt="50 Project Ideas" />
+  </a>
+</p>
+
+---
+
 </div>
 
 ## 🌟 Flagship Projects by Category
