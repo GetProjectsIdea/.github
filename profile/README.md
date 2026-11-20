@@ -10,8 +10,8 @@
 
 <div align="center">
 
-<!-- Modern Wavy Dynamic Gradient Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,30&height=220&section=header&text=GetProjects.org&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Free%20Open-Source%20Coding%20Projects%20•%20Final-Year%20Code%20•%20AI%20%26%20Web%20Hub&descFontSize=19&descAlignY=62" width="100%" alt="GetProjects Header" />
+<!-- Native High-Performance Self-Hosted SVG Header Banner -->
+<img src="https://raw.githubusercontent.com/GetProjectsIdea/.github/main/profile/header.svg" width="100%" alt="GetProjects.org Header" />
 
 <!-- Live Dynamic Metrics & Quick Badges -->
 <p align="center">
