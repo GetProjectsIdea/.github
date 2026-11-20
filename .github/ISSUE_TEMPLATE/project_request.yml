@@ -1,0 +1,47 @@
+name: "💡 Project Tutorial or Source Code Request"
+description: "Suggest a final-year project, mini-project, or tutorial topic for GetProjects.org"
+title: "[Project Request]: "
+labels: ["project-request", "student-community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a project request! We build and publish complete, tested open-source projects with tutorials on [GetProjects.org](https://getprojects.org).
+  - type: input
+    id: project_title
+    attributes:
+      label: Project Title / Topic
+      description: What is the name or core topic of the project?
+      placeholder: "e.g., AI Healthcare Appointment Booking System with Django & Twilio"
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Project Domain
+      options:
+        - "Machine Learning & AI"
+        - "Full-Stack Web (Python / Django / Flask)"
+        - "Web Development (PHP / MySQL / MERN)"
+        - "Cybersecurity & Defensive Tools"
+        - "Game Development (Python / Pygame)"
+        - "Mobile App (Android / Flutter)"
+        - "Desktop GUI & Utilities"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description & Requirements
+      description: Explain what features, algorithms, or modules this project needs.
+      placeholder: "Describe the desired workflow, database models, or academic requirements..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: academic_use
+    attributes:
+      label: Academic Level
+      options:
+        - label: "This is for my BTech / MCA Final-Year Capstone Project"
+        - label: "This is for a College Mini-Project / Semester Submission"
+        - label: "This is for an MTech / Research Thesis"
