@@ -1,27 +1,23 @@
 <svg width="854" height="220" viewBox="0 0 854 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090d16" />
       <stop offset="50%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#1e1b4b" />
     </linearGradient>
 
-    <!-- Wave 1 Gradient -->
     <linearGradient id="wave1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25" />
-      <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.25" />
     </linearGradient>
 
-    <!-- Wave 2 Gradient (Bottom Crest) -->
     <linearGradient id="wave2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.85" />
       <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#9333ea" stop-opacity="0.8" />
     </linearGradient>
 
-    <!-- Glow Filter -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -35,9 +31,6 @@
       font-size: 54px;
       fill: #ffffff;
       letter-spacing: -0.5px;
-    }
-    .title-accent {
-      fill: #38bdf8;
     }
     .subtitle {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -56,32 +49,24 @@
     }
   </style>
 
-  <!-- Background Canvas -->
   <rect width="854" height="220" rx="12" fill="url(#bgGrad)" />
 
-  <!-- Ambient Glow Orbs -->
-  <circle cx="120" cy="40" r="140" fill="#4f46e5" opacity="0.15" filter="url(#glow)" />
-  <circle cx="750" cy="60" r="160" fill="#0ea5e9" opacity="0.12" filter="url(#glow)" />
+  <circle cx="120" cy="40" r="140" fill="#6366f1" opacity="0.18" filter="url(#glow)" />
+  <circle cx="750" cy="60" r="160" fill="#0ea5e9" opacity="0.14" filter="url(#glow)" />
 
-  <!-- Deep Back Wave -->
   <path d="M0,160 C150,130 320,195 480,165 C640,135 740,175 854,155 L854,220 L0,220 Z" fill="url(#wave1Grad)" />
-
-  <!-- Front Dynamic Glowing Wave -->
   <path d="M0,180 C180,145 340,210 510,175 C680,140 760,190 854,170 L854,220 L0,220 Z" fill="url(#wave2Grad)" />
 
-  <!-- Top Pill / Badge -->
   <g transform="translate(427, 42)">
-    <rect x="-105" y="-12" width="210" height="24" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
-    <circle cx="-85" cy="0" r="4" fill="#10b981" />
-    <text x="-72" y="4" class="tag">OPEN-SOURCE DEV HUB</text>
+    <rect x="-130" y="-12" width="260" height="24" rx="12" fill="#111827" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="-110" cy="0" r="4" fill="#38bdf8" />
+    <text x="-95" y="4" class="tag">OPEN-SOURCE DEV HUB</text>
   </g>
 
-  <!-- Main Headline -->
   <text x="427" y="108" text-anchor="middle" class="title">
-    GetProjects<tspan class="title-accent">.org</tspan>
+    GetProjects.org
   </text>
 
-  <!-- Subtitle Tagline -->
   <text x="427" y="142" text-anchor="middle" class="subtitle">
     Free Open-Source Coding Projects • Final-Year Code • AI &amp; Web Hub
   </text>
