@@ -11,7 +11,7 @@
 <div align="center">
 
 <!-- Native High-Performance Self-Hosted SVG Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=GetProjects.org&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Free%20Open-Source%20Coding%20Projects%20%E2%80%A2%20Final-Year%20Code%20%E2%80%A2%20AI%20%26%20Web%20Hub&descFontSize=19&descAlignY=62" width="100%" alt="GetProjects.org Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=GetProjects.org&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Free%20Open-Source%20Coding%20Projects%20%E2%80%A2%20Final-Year%20Code%20%E2%80%A2%20AI%20and%20Web%20Hub&descFontSize=19&descAlignY=62" width="100%" alt="GetProjects.org Header" />
 
 <!-- Live Dynamic Metrics & Quick Badges -->
 <p align="center">
